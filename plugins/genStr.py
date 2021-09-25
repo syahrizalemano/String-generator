@@ -171,7 +171,7 @@ async def generate_str(c, m):
         return
     try:
         session_string = await client.export_session_string()
-        await client.send_message("me", f"**Pyrogram String**\n\n**By ANOBZ bot**\n\n`{session_string}`\n\nTerima kasih Telah menggunakan {(await c.get_me()).mention(style='md')}")
+        await client.send_message("me", f"**Pyrogram String**\n\n**By [ANO](https://t.me/bcddgblg)**\n\n`{session_string}`\n\nTerima kasih Telah menggunakan {(await c.get_me()).mention(style='md')}")
         text = "✅ Berhasil Membuat Sesi String Anda dan mengirimkan kepada Anda pesan tersimpan.\nPeriksa pesan tersimpan Anda atau Klik Tombol Di Bawah."
         reply_markup = InlineKeyboardMarkup(
             [[InlineKeyboardButton(text="String Session ↗️", url=f"tg://openmessage?user_id={m.chat.id}")]]
