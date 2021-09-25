@@ -42,7 +42,7 @@ PHONE_NUMBER_TEXT = (
 async def generate_str(c, m):
     get_api_id = await c.ask(
         chat_id=m.chat.id,
-        text=API_TEXT.format(m.from_user.mention(style='md')),
+        text=API_HASH.format(m.from_user.mention(style='md')),
         filters=filters.text
     )
     api_id = get_api_id.text
@@ -59,7 +59,7 @@ async def generate_str(c, m):
 
     get_api_hash = await c.ask(
         chat_id=m.chat.id, 
-        text=HASH_TEXT,
+        text=API_HASH,
         filters=filters.text
     )
     api_hash = get_api_hash.text
