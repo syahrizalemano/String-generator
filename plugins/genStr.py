@@ -14,7 +14,7 @@ from pyrogram.errors import (
 )
 
 
-API_ID = """
+API_TEXT = """
 ╭━━━━━━━━━━╮\n"
 ╭╮╱╱╱╱╭╮╭╮
 ┃┃╱╱╱╱┃┃┃┃
@@ -28,7 +28,7 @@ Buat string Session disini.
 Masukan `API_ID`  Disini
 ║▌│█║▌│ █║▌│█│║▌║
 """
-IP_HASH = "Disini `API_HASH` ║▌│█║▌│ █║▌│█│║▌.\n\nTap /cancel untuk Cancel."""
+HASH_TEXT = "Disini `API_HASH` ║▌│█║▌│ █║▌│█│║▌.\n\nTap /cancel untuk Cancel."""
 
 PHONE_NUMBER_TEXT = (
     "📞__ Masukan nomor telephon"
@@ -42,7 +42,7 @@ PHONE_NUMBER_TEXT = (
 async def generate_str(c, m):
     get_api_id = await c.ask(
         chat_id=m.chat.id,
-        text=API_HASH.format(m.from_user.mention(style='md')),
+        text=API_TEXT.format(m.from_user.mention(style='md')),
         filters=filters.text
     )
     api_id = get_api_id.text
@@ -59,7 +59,7 @@ async def generate_str(c, m):
 
     get_api_hash = await c.ask(
         chat_id=m.chat.id, 
-        text=API_HASH,
+        text=HASH_TEXT,
         filters=filters.text
     )
     api_hash = get_api_hash.text
