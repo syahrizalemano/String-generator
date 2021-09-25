@@ -241,7 +241,7 @@ __📝 Language:__ [Python3](https://www.python.org/)
 
 __🧰 Framework:__ [Pyrogram](https://github.com/pyrogram/pyrogram)
 
-__👨‍💻 Modification:__ [𝐀𝐧𝐨𝐧𝐲𝐦𝐨𝐮𝐬](https://t.me/bcddgblg)
+__👨‍💻 Modification:__ [ANO](https://t.me/bcddgblg)
 """
 
     buttons = [[
