@@ -25,12 +25,12 @@ API_ID = """
 ╰━━━━━━━━━━╯\n"
 Buat string Session disini.
 
-Masukan `API_TEXT`  Disini
+Masukan `API_ID`  Disini
 ║▌│█║▌│ █║▌│█│║▌║
 """
-HASH_TEXT = "Disini `API_HASH`.\n\nTap /cancel untuk Cancel.
+IP_HASH = "Disini `API_HASH`.\n\nTap /cancel untuk Cancel.
 ║▌│█║▌│ █║▌│█│║▌║
-"
+"""
 PHONE_NUMBER_TEXT = (
     "📞__ Masukan nomor telephon"
     "Wajib dengan kode Negara.__\n**Contoh:** `+13124562345`\n\n"
