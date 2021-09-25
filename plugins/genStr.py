@@ -15,14 +15,14 @@ from pyrogram.errors import (
 
 
 API_TEXT = """
-╭━━━━━━━━━━╮\n"
+╭━━━━━━━━━━╮
 ╭╮╱╱╱╱╭╮╭╮
 ┃┃╱╱╱╱┃┃┃┃
 ┃╰━┳━━┫┃┃┃╭━━╮
 ┃╭╮┃╭╮┃┃┃┃┃╭╮┃
 ┃┃┃┃╭╮┃╰┫╰┫╰╯┃
 ╰╯╰┻╯╰┻━┻━┻━━╯ {},
-╰━━━━━━━━━━╯\n"
+╰━━━━━━━━━━╯
 Buat string Session disini.
 
 Masukan `API_ID`  Disini
