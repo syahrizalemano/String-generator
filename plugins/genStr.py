@@ -25,10 +25,10 @@ API_ID = """
 ╰━━━━━━━━━━╯\n"
 Buat string Session disini.
 
-Masukan `API_ID`  Disini
+Masukan `API_TEXT`  Disini
 ║▌│█║▌│ █║▌│█│║▌║
 """
-IP_HASH = "Disini `API_HASH`.\n\nTap /cancel untuk Cancel.
+HASH_TEXT = "Disini `API_HASH`.\n\nTap /cancel untuk Cancel.
 ║▌│█║▌│ █║▌│█│║▌║
 "
 PHONE_NUMBER_TEXT = (
